@@ -1,0 +1,22 @@
+{
+  "name": "@test/sample-c",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "@test/sample-a": "^1.0.0",
+    "bull": "^3.13.0",
+    "puppeteer": "^2.1.1",
+    "xvfb": "^0.3.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "builtin-modules": "^3.1.0",
+    "rollup": "^1.32.0",
+    "rollup-plugin-terser": "^5.2.0"
+  }
+}

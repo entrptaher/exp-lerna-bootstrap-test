@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna exec yarn build --scope=@test/sample-c"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
